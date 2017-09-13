@@ -29,12 +29,11 @@ public class A1Q6 {
         if (number < 50 || number > 100) {
             System.out.println("INVALID NUMBER");
         }
-        //find the difference between the initial number and user number
-        int diff = initial - number;
         //create for loop to count down until the number is reached
         while (initial > number) {
-           initial = initial - 5;
-          System.out.println(initial);              
+            initial = initial - 5;
+            System.out.println(initial);
+
         }
     }
 }
