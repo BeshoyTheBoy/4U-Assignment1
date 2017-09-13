@@ -32,13 +32,9 @@ public class A1Q6 {
         //find the difference between the initial number and user number
         int diff = initial - number;
         //create for loop to count down until the number is reached
-        for (int i = 0; i < diff; i++) {
-            initial = initial - 5;
-            System.out.println(initial);
-            //if statement to stop countdown when number is reached
-            if (initial == number) {
-                break;
-            } 
+        while (initial > number) {
+           initial = initial - 5;
+          System.out.println(initial);              
         }
     }
 }
