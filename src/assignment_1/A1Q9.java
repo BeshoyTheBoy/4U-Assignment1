@@ -23,7 +23,7 @@ public class A1Q9 {
         String[] words = new String[10];
         //create a variable to store the word lengths in
         double lengths = 0;
-        
+
         //for loop to fill in array
         for (int i = 0; i < 10; i++) {
             System.out.println("Enter in Word");
@@ -32,9 +32,9 @@ public class A1Q9 {
             //store length of word inside lengths variable
             lengths = lengths + words[i].length();
         }
-        
+
         //find average word length
-        double average = lengths/10;
+        double average = lengths / 10;
         System.out.println("The average word length is: " + average);
     }
 }
