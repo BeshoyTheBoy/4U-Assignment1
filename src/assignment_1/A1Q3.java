@@ -45,8 +45,6 @@ public class A1Q3 {
         //Divide total expenses by $35 to see how many tickets required to break even
         double tickets = Math.ceil(total / 35);
 
-
-
         //Output number of tickets
         System.out.println("Number of tickets needed to break even: " + tickets);
     }

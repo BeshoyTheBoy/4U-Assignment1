@@ -18,10 +18,10 @@ public class A1Q7 {
         int year = 1999;
         //in billions
         double pop = 6;
-        
-        while(pop < 10){
+
+        while (pop < 10) {
             year = year + 1;
-            pop = (pop*.014) + pop;
+            pop = (pop * .014) + pop;
         }
         System.out.println("The year the population exceeds 10 billion is: " + year);
     }

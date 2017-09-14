@@ -27,7 +27,7 @@ public class A1Q4 {
         //if the number is greater than 10 or less than one
         if (number > 10 || number < 1) {
             System.out.println("INVALID NUMBER");
-        //else if the number is between 1 and 10
+            //else if the number is between 1 and 10
         } else if (number >= 1 && number <= 10) {
             //for loop that counts up to the number, while printing an asterisk everytime it goes up 1
             for (int i = 0; i < number; i++) {

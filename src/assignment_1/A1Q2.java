@@ -39,6 +39,5 @@ public class A1Q2 {
         System.out.println("The product squared is " + productsquared);
         System.out.println("The square root of the product is " + rootproduct);
 
-
     }
 }

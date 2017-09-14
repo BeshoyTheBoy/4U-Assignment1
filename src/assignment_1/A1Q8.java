@@ -12,7 +12,6 @@ import java.util.Scanner;
  */
 public class A1Q8 {
 
-
     /**
      * @param args the command line arguments
      */
@@ -31,20 +30,20 @@ public class A1Q8 {
         int milYear = 0;
         //the double of initial amount
         double mult = balance * 2;
-        
+
         //Find out after how long the money will double
         while (balance < mult) {
-            balance = (1+r)*balance;
+            balance = (1 + r) * balance;
             year = year + 1;
         }
         System.out.println("The money will double in " + year + " years.");
-        
+
         //Find out when money will reach 1 million dollars
-        while (balance <= 10*10*10*10*10*10){
-        balance = (1+r)*balance;
-        milYear = milYear + 1;
-    }
+        while (balance <= 10 * 10 * 10 * 10 * 10 * 10) {
+            balance = (1 + r) * balance;
+            milYear = milYear + 1;
+        }
         System.out.println("");
         System.out.println("You will reach 1 million after " + milYear + " years.");
-  }
+    }
 }
